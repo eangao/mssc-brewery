@@ -15,6 +15,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 public class BeerDtoV2 {
+
     private UUID id;
     private String beerName;
     private BeerStyleEnum beerStyle;
